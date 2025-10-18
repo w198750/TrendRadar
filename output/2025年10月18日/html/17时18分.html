@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-18 17:18:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">10</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8nYLhA743YV" target="_blank" class="news-link">特朗普又抛歪理：都怪尼克松引出中国这个强敌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时18分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nXp14yHS6o" target="_blank" class="news-link">特朗普罕见承认，高关税威胁中国的策略不可持续</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时18分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562460355021619227/" target="_blank" class="news-link">特朗普又抛歪理：都怪尼克松引出中国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时18分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2173372" target="_blank" class="news-link">特朗普与泽连斯基再度会面：希望能在不动用“战斧”的情况下结束冲突</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时18分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nYEKd4N1Y8" target="_blank" class="news-link">普京和特朗普选在匈牙利见面，“欧盟很尴尬”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时18分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nY5myFfFkF" target="_blank" class="news-link">普京特使提议“建个隧道把俄美连起来”，特朗普回应了</a> [6] <font color='grey'>- 17时18分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nXw1CnFw3c" target="_blank" class="news-link">特朗普与泽连斯基在白宫会晤，美媒：气氛紧张</a> [7] <font color='grey'>- 17时18分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nXtfp1w62H" target="_blank" class="news-link">乌消息人士：泽连斯基向特朗普展示了俄境内潜在打击目标地图</a> [9] <font color='grey'>- 17时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31801773" target="_blank" class="news-link">泽连斯基称愿意接受双边或三边会谈，特朗普称俄乌冲突应结束</a> [17] <font color='grey'>- 17时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7562451405152194084/" target="_blank" class="news-link">若特朗普关税被判“非法”意味什么</a> [21] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%BD%BB%E5%BA%95%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA" target="_blank" class="news-link">黄仁勋称英伟达彻底退出中国市场</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31802033" target="_blank" class="news-link">苹果CEO库克谈AI：不担心计算机像人一样思考，担心人像计算机一样思考</a> [14] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7562460355021619227/" target="_blank" class="news-link">特朗普又抛歪理：都怪尼克松引出中国</a> <font color='red'><strong>[4]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
